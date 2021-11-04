@@ -1,2 +1,1 @@
-ECHO is on.
-DAMMIT
+This programs are made on IntelliJ 
