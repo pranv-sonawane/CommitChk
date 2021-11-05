@@ -25,7 +25,7 @@ public class MultiDimentional {
         Scanner in = new Scanner(System.in);
         //input
         for (int rows = 0; rows < a.length; rows++) {
-            for (int cols = 0; cols < a[rows].length; cols++) {
+            for (int cols = 0; cols < a[rows].length; cols++) { //a[rows] is column of individual array
                 a[rows][cols] = in.nextInt();
             }
         }
@@ -36,8 +36,12 @@ public class MultiDimentional {
 //            }
 //            System.out.println();
 //        }
-        for (int rows = 0; rows < a.length; rows++) {
-            System.out.println(Arrays.toString(a[rows]));       //we can use Arrays.toString instead of the column loop
+//        for (int rows = 0; rows < a.length; rows++) {
+//            System.out.println(Arrays.toString(a[rows]));       //we can use Arrays.toString instead of the column loop
+//        }
+        for (int[] b : a){                                      //doing same thing as the above for loop just enhanced
+            System.out.println(Arrays.toString(b));
         }
+
     }
 }
