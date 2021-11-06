@@ -7,38 +7,38 @@ import java.util.Scanner;
 
 public class ArrayMax {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        int[] a = new int[5];
-        System.out.println("Enter "+ a.length +" elements");
-        //input
-        for (int i = 0; i < a.length; i++) {
-            a[i] = in.nextInt();
+//        Scanner in = new Scanner(System.in);
+
+        int[] a = {1, 3, 35 ,34, 2, 6, 8, 12};
+        System.out.println(rangeMax(a, 1, 0));
+        System.out.println(arrMax(a));
+    }
+    static int rangeMax(int[] arr, int index1, int index2){
+
+        if (index2 < index1)
+            return -1;
+
+        if (arr == null)
+            return -1;
+
+        int Max = arr[index1];
+        for (int i = index1; i <= index2; i++) {
+           if (arr[i] > Max)
+               Max = arr[i];
         }
-        //output
-        System.out.println(Arrays.toString(a));
-
-
-        System.out.println("The max value in this array is: "+arrMax(a));
-        System.out.println("The min value in this array is: "+arrMin(a));
-
+        return Max;
     }
     static int arrMax(int[] arr){
-        int max = 0;
-        for (int i : arr) {
-            if (max < i) {
-                max = i;
-            }
 
+        if (arr.length == 0){
+            return -1;
         }
-        return max;
-    }
-    static int arrMin(int[] arr){
-        int min = arr[0];
-        for (int i = 0; i < 4; i++) {
-            if (arr[i] < min) {
-                min = arr[i];
-            }
+
+        int Max = arr[0];
+        for (int i = 0; i < arr.length; i++) {
+           if (arr[i] > Max)
+               Max = arr[i];
         }
-        return min;
+        return Max;
     }
 }
