@@ -13,7 +13,7 @@ public class DynamicArrays {
 //        list.add(86);
 //        list.add(543);
 
-//        System.out.println(list);       //you don't need to do Arrays.toString in arraylist
+//        System.out.println(list);           //you don't need to do Arrays.toString in arraylist
 
 //        System.out.println(list.contains(543)); //checks if the element is present in array or not
 //

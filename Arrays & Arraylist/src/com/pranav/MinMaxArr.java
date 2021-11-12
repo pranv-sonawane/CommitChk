@@ -32,15 +32,13 @@ public class MinMaxArr {
     static void minmaxsum(long[] arr){
         long minsum = 0, maxsum = 0;
         for (int i = 0; i < arr.length; i++) {
-            if ( arr[i] != max(arr)){
-                minsum += arr[i];
-            }
+            minsum += arr[i];
         }
+        minsum -= max(arr);
         for (int i = 0; i < arr.length; i++) {
-            if ( arr[i] != min(arr)){
-                maxsum += arr[i];
-            }
+            maxsum += arr[i];
         }
+        maxsum -= min(arr);
         System.out.println(minsum + " " + maxsum);
     }
 }
