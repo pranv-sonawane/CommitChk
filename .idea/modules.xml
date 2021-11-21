@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Arrays &amp; Arraylist/Arrays &amp; Arraylist.iml" filepath="$PROJECT_DIR$/Arrays &amp; Arraylist/Arrays &amp; Arraylist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Functions&amp;Methods/Functions&amp;Methods.iml" filepath="$PROJECT_DIR$/Functions&amp;Methods/Functions&amp;Methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Linear Search/Linear Search.iml" filepath="$PROJECT_DIR$/Linear Search/Linear Search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Switch Statements + Nested Cases/Switch Statements + Nested Cases.iml" filepath="$PROJECT_DIR$/Switch Statements + Nested Cases/Switch Statements + Nested Cases.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/dsaprograms.iml" filepath="$PROJECT_DIR$/.idea/dsaprograms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/introduction to java/introduction to java.iml" filepath="$PROJECT_DIR$/introduction to java/introduction to java.iml" />
+    </modules>
+  </component>
+</project>

@@ -7,13 +7,12 @@ public class ShuffleArr {
     static void shuffle(int [] a, int n){
         int[] ans  = new int[2 * n];
         int len = 2 * n, k = n, b = 0, c = 0 ;
-        while (b<len){
-            ans[b] = a[c];
-            b++; c++;
-            ans[b] = a[k];
-            b++; k++;
-         }
+        while (b<2*n){
+            ans[b++] = a[c++];
 
+            ans[b++] = a[k++];
+            
+        }
         System.out.println(Arrays.toString(ans));
     }
 
