@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c27afc8-20ea-4818-bbed-0812f0f88489" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Linear Search/src/com/pranav/NumsSmallerThanCurrNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linear Search/src/com/pranav/NumberOfGoodPair.java" beforeDir="false" afterPath="$PROJECT_DIR$/Linear Search/src/com/pranav/NumberOfGoodPair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
